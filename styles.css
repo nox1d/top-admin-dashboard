@@ -19,7 +19,7 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 4fr;
+    /* grid-template-rows: 1fr 4fr; */
 }
 
 .header {
@@ -37,20 +37,47 @@ body {
 }
 
 .sidebar {
-    background-color: #45afff;
+    background-color: #3395f1;
     color: #ffffff;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    display: grid;
+    gap: 1rem;
+    align-items: start;
+    align-content: start;
+}
+
+.sidebar ul {
+    display: grid;
+    list-style-type: none;
+    padding: 1rem;
+    margin-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sidebar p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sidebar li {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    align-items: center;
 }
 
 .dashboard-title svg {
     fill: white;
-    width: 2.5rem;
+    width: 3rem;
 }
 
 .dashboard-title {
     display: flex;
     gap: 0.5rem;
+    padding: 1rem;
+    align-items: center;
 }
 
 .main-content {
@@ -76,8 +103,11 @@ body {
     background-color: #ffffff;
 }
 
+.sidebar .icon {
+    margin-top: 0.3rem;
+}
 .icon svg {
-    width: 1.5rem;
+    width: 1.2rem;
 }
 
 .sidebar svg {
