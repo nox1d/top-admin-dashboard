@@ -79,3 +79,7 @@ body {
 .icon svg {
     width: 1.5rem;
 }
+
+.sidebar svg {
+    fill: #ffffff;
+}
