@@ -31,8 +31,19 @@ body {
 
 .sidebar {
     background-color: #45afff;
+    color: #ffffff;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+}
+
+.dashboard-title svg {
+    fill: white;
+    width: 2.5rem;
+}
+
+.dashboard-title {
+    display: flex;
+    gap: 0.5rem;
 }
 
 .main-content {
