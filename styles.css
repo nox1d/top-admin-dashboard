@@ -226,6 +226,7 @@ input[type="search"] {
 .main-content {
     grid-column: 2 / 3;
     padding-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 .main-content h2 {
@@ -236,12 +237,13 @@ input[type="search"] {
     grid-column: 3 / 4;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 4rem;
 }
 
 .main-content-grid {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: repeat(3, 250px);
     gap: 2rem;
 
