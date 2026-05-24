@@ -215,11 +215,13 @@ input[type="search"] {
     gap: 1rem;
     height: 2rem;
     align-items: center;
+    cursor: pointer;
 }
 
 .dashboard-title svg {
     fill: white;
     width: 3rem;
+    cursor: pointer;
 }
 
 .dashboard-title {
@@ -227,6 +229,7 @@ input[type="search"] {
     gap: 0.5rem;
     padding: 1rem;
     align-items: center;
+    cursor: pointer
 }
 
 .main-content {
@@ -428,4 +431,9 @@ input[type="search"] {
 
 .sidebar svg {
     fill: #ffffff;
+    cursor: pointer;
+}
+
+.card button svg {
+    width: 1.5rem;
 }
