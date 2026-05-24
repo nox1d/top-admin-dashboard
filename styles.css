@@ -234,12 +234,13 @@ input[type="search"] {
 
 .main-content {
     grid-column: 2 / 3;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     margin-bottom: 4rem;
 }
 
 .main-content h2 {
     margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .side-content {
